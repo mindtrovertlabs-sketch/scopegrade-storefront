@@ -1,6 +1,6 @@
 ﻿# GitHub Pages package manifest
 
-Generated: 2026-06-04T00:01:18
+Generated: 2026-06-04T00:11:03
 
 - Source final storefront: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
 - Repo-ready folder: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\github_pages_repo_ready
@@ -11,18 +11,18 @@ Generated: 2026-06-04T00:01:18
 ## Files
 - .nojekyll (2 bytes)
 - 404.html (632 bytes)
-- ai-code-review-scorecard-pass.html (4749 bytes)
+- ai-code-review-scorecard-pass.html (4968 bytes)
 - async-review-brief.html (4686 bytes)
-- automation-scoping-review.html (4828 bytes)
+- automation-scoping-review.html (5052 bytes)
 - BUILD_REPORT.md (1539 bytes)
 - index.html (13370 bytes)
-- launch_config.used.json (4794 bytes)
+- launch_config.used.json (5070 bytes)
 - llms.txt (1824 bytes)
 - marketplace_product_copy.md (2450 bytes)
 - outbound_launch_copy.md (1298 bytes)
 - preview.html (2746 bytes)
 - PUBLISH_APPROVAL.md (814 bytes)
-- rag-pilot-readiness-review.html (4806 bytes)
+- rag-pilot-readiness-review.html (5022 bytes)
 - README.md (1702 bytes)
 - robots.txt (112 bytes)
 - roi-calculator.html (8116 bytes)
