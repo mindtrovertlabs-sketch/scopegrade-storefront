@@ -34,6 +34,7 @@ powershell -ExecutionPolicy Bypass -File .\verify_github_pages_package.ps1
 - utomation-scoping-review.html: async automation scoping review offer.
 - ag-pilot-readiness-review.html: async RAG readiness review offer.
 - i-code-review-scorecard-pass.html: async AI code review scorecard offer.
+- sync-review-brief.html: redacted brief template for async reviews.
 - scopegrade_free_preview.zip: free preview ZIP.
 - i_automation_roi_kit.zip: paid product file.
 - ag_eval_kit.zip: paid product file.
