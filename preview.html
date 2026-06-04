@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scopegrade Free Preview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Segoe UI, Roboto, Arial, sans-serif;
+      color: #16202a;
+      background: #f6f7f9;
+      line-height: 1.5;
+    }
+    main {
+      width: min(900px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 32px 0 44px;
+    }
+    section {
+      background: #fff;
+      border: 1px solid #d9dee5;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 14px 0;
+    }
+    h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: 0; }
+    h2 { margin: 0 0 8px; font-size: 22px; letter-spacing: 0; }
+    p { color: #5e6975; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border-bottom: 1px solid #d9dee5; padding: 8px; text-align: left; vertical-align: top; }
+    code, pre { background: #eef1f4; border-radius: 6px; }
+    pre { padding: 12px; overflow: auto; }
+    .button {
+      display: inline-block;
+      border: 1px solid #1c5d99;
+      color: #1c5d99;
+      border-radius: 6px;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-weight: 650;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Scopegrade Free Preview</h1>
+    <p>Sample checklists for deciding whether an AI automation, RAG pilot or AI-generated code change is ready for a paid build/review.</p>
+
+    <section>
+      <h2>AI Automation Pre-Build Filter</h2>
+      <p>Before building a workflow, confirm the task, failure mode, approval owner, source of truth and first milestone.</p>
+      <pre>Good first milestone:
+Build a draft-only workflow that classifies inputs, produces suggested actions, logs decisions, and requires human approval before customer-visible or money-impacting steps.</pre>
+    </section>
+
+    <section>
+      <h2>Mini ROI Worksheet</h2>
+      <pre>gross monthly value = runs/month * minutes saved/run * loaded hourly cost / 60
+net monthly value = gross value - tool/API cost - maintenance cost - failure handling</pre>
+    </section>
+
+    <section>
+      <h2>RAG Pilot Source Readiness</h2>
+      <p>A useful pilot answers agreed questions from approved sources, cites those sources, refuses unsupported questions and logs content gaps.</p>
+    </section>
+
+    <section>
+      <h2>AI Code Review Merge Risk</h2>
+      <p>Merge only when behavior, failure modes, tests and rollback path are clear enough for the blast radius.</p>
+    </section>
+
+    <p><a class="button" href="scopegrade_free_preview.zip">Download free preview ZIP</a></p>
+    <p>Templates only. No guaranteed revenue, savings, model accuracy, security outcome or compliance result.</p>
+  </main>
+</body>
+</html>
