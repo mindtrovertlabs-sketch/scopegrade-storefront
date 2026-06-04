@@ -1,6 +1,6 @@
 ﻿# GitHub Pages package manifest
 
-Generated: 2026-06-04T00:11:03
+Generated: 2026-06-04T07:06:09
 
 - Source final storefront: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
 - Repo-ready folder: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\github_pages_repo_ready
@@ -23,7 +23,7 @@ Generated: 2026-06-04T00:11:03
 - preview.html (2746 bytes)
 - PUBLISH_APPROVAL.md (814 bytes)
 - rag-pilot-readiness-review.html (5022 bytes)
-- README.md (1702 bytes)
+- README.md (2257 bytes)
 - robots.txt (112 bytes)
 - roi-calculator.html (8116 bytes)
 - scopegrade_free_preview.zip (4306 bytes)
