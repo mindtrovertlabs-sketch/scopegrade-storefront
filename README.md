@@ -12,12 +12,14 @@ https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
 - ROI calculator: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/roi-calculator.html
 - Free preview: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/preview.html
 - Redacted async review brief: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/async-review-brief.html
+- Agency partner review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
 
 ## Async review services
 
 - Workflow Scoping Review, 250-500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
 - RAG Pilot Readiness Review, 750-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
 - AI Code Review Scorecard Pass, 500-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
+- Agency Partner Review, 250-750 USD entry points: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
 
 These are fixed-scope written reviews. No calls, credentials or production access are required by default.
 
@@ -31,6 +33,7 @@ These are fixed-scope written reviews. No calls, credentials or production acces
 - rag-pilot-readiness-review.html: async RAG readiness review offer.
 - ai-code-review-scorecard-pass.html: async AI code review scorecard offer.
 - async-review-brief.html: redacted brief template for async reviews.
+- agency-partner-review.html: async overflow review offer for AI agencies and studios.
 - scopegrade_free_preview.zip: free preview ZIP.
 - robots.txt, sitemap.xml, 404.html, .nojekyll.
 
