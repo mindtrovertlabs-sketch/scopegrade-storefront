@@ -29,6 +29,7 @@ powershell -ExecutionPolicy Bypass -File .\verify_github_pages_package.ps1
 ## Included
 
 - index.html: storefront.
+- start-here.html: buyer path for calculator, kits and async reviews.
 - preview.html: free preview.
 - oi-calculator.html: public automation ROI calculator.
 - utomation-scoping-review.html: async automation scoping review offer.
