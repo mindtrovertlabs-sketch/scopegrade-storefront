@@ -13,6 +13,7 @@ https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
 - Free preview: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/preview.html
 - Redacted async review brief: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/async-review-brief.html
 - Agency partner review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
+- Sample async review output: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/sample-deliverable.html
 
 ## Async review services
 
@@ -34,6 +35,7 @@ These are fixed-scope written reviews. No calls, credentials or production acces
 - ai-code-review-scorecard-pass.html: async AI code review scorecard offer.
 - async-review-brief.html: redacted brief template for async reviews.
 - agency-partner-review.html: async overflow review offer for AI agencies and studios.
+- sample-deliverable.html: redacted fictional sample of async review output.
 - scopegrade_free_preview.zip: free preview ZIP.
 - robots.txt, sitemap.xml, 404.html, .nojekyll.
 
