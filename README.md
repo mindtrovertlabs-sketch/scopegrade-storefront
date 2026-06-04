@@ -30,6 +30,7 @@ powershell -ExecutionPolicy Bypass -File .\verify_github_pages_package.ps1
 
 - index.html: storefront.
 - preview.html: free preview.
+- oi-calculator.html: public automation ROI calculator.
 - scopegrade_free_preview.zip: free preview ZIP.
 - i_automation_roi_kit.zip: paid product file.
 - ag_eval_kit.zip: paid product file.
