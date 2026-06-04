@@ -1,0 +1,256 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scopegrade - Automation ROI Calculator</title>
+  <style>
+    :root {
+      --ink: #16202a;
+      --muted: #5e6975;
+      --line: #d9dee5;
+      --surface: #f6f7f9;
+      --panel: #ffffff;
+      --green: #1f7a48;
+      --blue: #1c5d99;
+      --teal: #26706c;
+      --amber: #8a6400;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--surface);
+      line-height: 1.45;
+    }
+    header, footer {
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      border-bottom: 0;
+      color: var(--muted);
+      padding: 18px 0 28px;
+      font-size: 14px;
+    }
+    .wrap {
+      width: min(960px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+    .hero { padding: 42px 0 28px; }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-weight: 700;
+      font-size: 14px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      max-width: 820px;
+      letter-spacing: 0;
+    }
+    .hero p, .card p {
+      color: var(--muted);
+      max-width: 760px;
+      font-size: 17px;
+    }
+    main { padding: 22px 0 42px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 21px;
+      letter-spacing: 0;
+    }
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin: 12px 0 14px;
+    }
+    .calc-field label {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+      margin-bottom: 5px;
+    }
+    .calc-field input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px 10px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+    .calc-results {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 4px 0 12px;
+    }
+    .calc-result {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fafdff;
+    }
+    .calc-result span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .calc-result strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 20px;
+    }
+    .calc-recommendation {
+      margin: 0 0 12px;
+      color: #244b48;
+      font-weight: 650;
+    }
+    .button-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .button {
+      display: inline-block;
+      border: 1px solid var(--blue);
+      background: var(--blue);
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-weight: 650;
+      text-align: center;
+    }
+    .button:hover { background: #174d80; }
+    .secondary {
+      background: #fff;
+      color: var(--blue);
+    }
+    .secondary:hover { background: #eef6ff; }
+    .note {
+      border-left: 4px solid var(--amber);
+      color: #4d3a05;
+    }
+    @media (max-width: 860px) {
+      .calc-grid, .calc-results { grid-template-columns: 1fr; }
+      h1 { font-size: 30px; }
+      .hero { padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">Scopegrade free tool</p>
+      <h1>Automation ROI calculator</h1>
+      <p>Estimate whether a repeatable workflow has enough monthly value to justify automation, tooling and setup cost.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="card">
+      <h2>Calculate the candidate</h2>
+      <p>Use conservative inputs. The strongest candidates save frequent manual work, have few exceptions and pay back the setup cost quickly.</p>
+      <div class="calc-grid">
+        <div class="calc-field">
+          <label for="calc-runs">Runs per month</label>
+          <input id="calc-runs" type="number" min="0" step="1" value="120">
+        </div>
+        <div class="calc-field">
+          <label for="calc-minutes">Minutes saved per run</label>
+          <input id="calc-minutes" type="number" min="0" step="1" value="12">
+        </div>
+        <div class="calc-field">
+          <label for="calc-rate">Loaded hourly cost</label>
+          <input id="calc-rate" type="number" min="0" step="1" value="45">
+        </div>
+        <div class="calc-field">
+          <label for="calc-tool">Monthly tool cost</label>
+          <input id="calc-tool" type="number" min="0" step="1" value="99">
+        </div>
+        <div class="calc-field">
+          <label for="calc-setup">One-time setup cost</label>
+          <input id="calc-setup" type="number" min="0" step="1" value="750">
+        </div>
+      </div>
+      <div class="calc-results">
+        <div class="calc-result"><span>Monthly value</span><strong id="calc-value"></strong></div>
+        <div class="calc-result"><span>Monthly net</span><strong id="calc-net"></strong></div>
+        <div class="calc-result"><span>Payback</span><strong id="calc-payback">n/a</strong></div>
+        <div class="calc-result"><span>Hours saved</span><strong id="calc-hours">0</strong></div>
+      </div>
+      <p class="calc-recommendation" id="calc-recommendation"></p>
+      <div class="button-row">
+        <a class="button" href="https://buy.stripe.com/14AfZj40Y95LdNgeBRaEE00">Buy AI Automation ROI Kit</a>
+        <a class="button secondary" href="preview.html">Open free preview</a>
+        <a class="button secondary" href="./">Back to storefront</a>
+      </div>
+    </article>
+
+    <article class="card note">
+      <h2>Important limitation</h2>
+      <p>This is a planning calculator, not a promise of revenue, savings, model accuracy, security outcome or compliance result.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">Scopegrade - async-first template products. Support: mindtrovert.labs@gmail.com</div>
+  </footer>
+  <script>
+    (function () {
+      function byId(id) { return document.getElementById(id); }
+      function numberValue(id) {
+        var value = Number(byId(id).value);
+        return Number.isFinite(value) && value > 0 ? value : 0;
+      }
+      function money(value) {
+        return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(value);
+      }
+      function updateCalculator() {
+        var runs = numberValue("calc-runs");
+        var minutes = numberValue("calc-minutes");
+        var rate = numberValue("calc-rate");
+        var tool = numberValue("calc-tool");
+        var setup = numberValue("calc-setup");
+        var hours = runs * minutes / 60;
+        var monthlyValue = hours * rate;
+        var monthlyNet = monthlyValue - tool;
+        var payback = monthlyNet > 0 ? setup / monthlyNet : 0;
+
+        byId("calc-value").textContent = money(monthlyValue);
+        byId("calc-net").textContent = money(monthlyNet);
+        byId("calc-hours").textContent = hours.toFixed(hours >= 10 ? 0 : 1);
+        byId("calc-payback").textContent = monthlyNet > 0 ? payback.toFixed(payback >= 10 ? 0 : 1) + " mo" : "n/a";
+
+        var message = "Weak candidate: keep manual or redesign the process before automating.";
+        if (monthlyNet >= 1500 && payback <= 2) {
+          message = "Strong candidate: likely worth scoping as a paid automation sprint.";
+        } else if (monthlyNet >= 300 && payback <= 6) {
+          message = "Promising candidate: validate edge cases and implementation cost before funding.";
+        }
+        byId("calc-recommendation").textContent = message;
+      }
+      ["calc-runs", "calc-minutes", "calc-rate", "calc-tool", "calc-setup"].forEach(function (id) {
+        byId(id).addEventListener("input", updateCalculator);
+      });
+      updateCalculator();
+    }());
+  </script>
+</body>
+</html>
