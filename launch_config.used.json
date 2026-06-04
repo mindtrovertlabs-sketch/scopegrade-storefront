@@ -37,32 +37,32 @@
                      "workflow_scoping_review_single":  {
                                                             "name":  "Workflow Scoping Review - Single Workflow",
                                                             "price_usd":  250,
-                                                            "stripe_payment_link":  ""
+                                                            "stripe_payment_link":  "https://buy.stripe.com/bJe5kFdBy6XD24y9hxaEE04"
                                                         },
                      "workflow_scoping_review_expanded":  {
                                                               "name":  "Workflow Scoping Review - Expanded",
                                                               "price_usd":  500,
-                                                              "stripe_payment_link":  ""
+                                                              "stripe_payment_link":  "https://buy.stripe.com/4gM7sN8he1DjcJc0L1aEE05"
                                                           },
                      "rag_pilot_readiness_review_single":  {
                                                                "name":  "RAG Pilot Readiness Review - One Area",
                                                                "price_usd":  750,
-                                                               "stripe_payment_link":  ""
+                                                               "stripe_payment_link":  "https://buy.stripe.com/7sYbJ37da5TzbF8eBRaEE06"
                                                            },
                      "rag_pilot_readiness_review_expanded":  {
                                                                  "name":  "RAG Pilot Readiness Review - Expanded",
                                                                  "price_usd":  1500,
-                                                                 "stripe_payment_link":  ""
+                                                                 "stripe_payment_link":  "https://buy.stripe.com/8x23cxgNK2Hn5gKctJaEE07"
                                                              },
                      "ai_code_review_scorecard_single":  {
                                                              "name":  "AI Code Review Scorecard Pass - Module",
                                                              "price_usd":  500,
-                                                             "stripe_payment_link":  ""
+                                                             "stripe_payment_link":  "https://buy.stripe.com/5kQaEZfJGa9P8sW0L1aEE08"
                                                          },
                      "ai_code_review_scorecard_expanded":  {
                                                                "name":  "AI Code Review Scorecard Pass - Expanded",
                                                                "price_usd":  1500,
-                                                               "stripe_payment_link":  ""
+                                                               "stripe_payment_link":  "https://buy.stripe.com/00w9AV9li2Hn4cGfFVaEE09"
                                                            }
                  }
 }
