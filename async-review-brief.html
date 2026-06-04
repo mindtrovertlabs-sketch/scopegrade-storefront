@@ -1,0 +1,113 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scopegrade - Async Review Brief Template</title>
+  <style>
+    :root {
+      --ink: #16202a;
+      --muted: #5e6975;
+      --line: #d9dee5;
+      --surface: #f6f7f9;
+      --panel: #ffffff;
+      --blue: #1c5d99;
+      --teal: #26706c;
+      --amber: #8a6400;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Segoe UI, Roboto, Arial, sans-serif; color: var(--ink); background: var(--surface); line-height: 1.45; }
+    header, footer { background: var(--panel); border-bottom: 1px solid var(--line); }
+    footer { border-top: 1px solid var(--line); border-bottom: 0; color: var(--muted); padding: 18px 0 28px; font-size: 14px; }
+    .wrap { width: min(960px, calc(100% - 28px)); margin: 0 auto; }
+    .hero { padding: 42px 0 28px; }
+    .eyebrow { margin: 0 0 8px; color: var(--teal); font-weight: 700; font-size: 14px; }
+    h1 { margin: 0; font-size: 38px; max-width: 820px; letter-spacing: 0; }
+    .hero p, .card p { color: var(--muted); max-width: 760px; font-size: 17px; }
+    main { padding: 22px 0 42px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; margin-bottom: 14px; }
+    h2 { margin: 0 0 8px; font-size: 21px; letter-spacing: 0; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; border: 1px solid var(--line); border-radius: 8px; background: #fafdff; padding: 14px; font-family: Consolas, Menlo, monospace; font-size: 14px; line-height: 1.5; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    .button-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    .button { display: inline-block; border: 1px solid var(--blue); background: var(--blue); color: #fff; border-radius: 6px; padding: 10px 12px; text-decoration: none; font-weight: 650; text-align: center; }
+    .button:hover { background: #174d80; }
+    .secondary { background: #fff; color: var(--blue); }
+    .secondary:hover { background: #eef6ff; }
+    .note { border-left: 4px solid var(--amber); color: #4d3a05; }
+    @media (max-width: 860px) {
+      h1 { font-size: 30px; }
+      .hero { padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">Scopegrade async intake</p>
+      <h1>Redacted async review brief template</h1>
+      <p>Use this when requesting a workflow, RAG or AI-code review without calls, credentials or sensitive production data.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="card">
+      <h2>Copy this brief</h2>
+      <pre>Review type:
+- Workflow Scoping Review / RAG Pilot Readiness Review / AI Code Review Scorecard Pass
+
+Goal:
+- What decision should this review help you make?
+
+Current process or system:
+- What happens today?
+- What tools are involved?
+- Who owns the final source of truth?
+
+Volume and value:
+- Runs, tickets, documents, users or code changes per month:
+- Estimated minutes currently spent:
+- Loaded hourly cost or business value assumption:
+
+Inputs and outputs:
+- What inputs are available?
+- What output should the system or workflow produce?
+- What should never be automated?
+
+Risk and approval:
+- What happens if the output is wrong?
+- Which step needs human approval?
+- What data must stay redacted?
+
+Constraints:
+- Tools already required or preferred:
+- Deadline:
+- Budget range:
+
+Links or samples:
+- Public links, redacted screenshots, redacted docs or redacted repo snippets only.
+- Do not send passwords, API keys, production access, private customer data or regulated data.</pre>
+      <div class="button-row">
+        <a class="button" href="mailto:mindtrovert.labs@gmail.com?subject=Redacted%20async%20review%20brief">Email a redacted brief</a>
+        <a class="button secondary" href="automation-scoping-review.html">Workflow review</a>
+        <a class="button secondary" href="rag-pilot-readiness-review.html">RAG review</a>
+        <a class="button secondary" href="ai-code-review-scorecard-pass.html">Code review</a>
+      </div>
+    </article>
+
+    <article class="card note">
+      <h2>Safety boundary</h2>
+      <ul>
+        <li>No credentials, production access, private customer data or regulated data.</li>
+        <li>No guaranteed revenue, savings, model accuracy, security outcome or compliance result.</li>
+        <li>Payment is confirmed before any custom review starts.</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">Scopegrade - async-first template products. Support: mindtrovert.labs@gmail.com</div>
+  </footer>
+</body>
+</html>
