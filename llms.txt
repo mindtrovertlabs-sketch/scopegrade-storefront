@@ -1,4 +1,4 @@
-﻿# Scopegrade
+# Scopegrade
 
 Scopegrade is an async-first toolkit for scoping AI automation, RAG pilots and AI-generated code risk before teams spend engineering time.
 
