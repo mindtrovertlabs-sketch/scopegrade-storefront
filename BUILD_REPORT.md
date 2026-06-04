@@ -1,6 +1,6 @@
 ﻿# Scopegrade storefront build report
 
-Generated: 2026-06-04T07:21:41
+Generated: 2026-06-04T08:46:35
 
 - Source: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront
 - Output: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
@@ -16,6 +16,7 @@ Generated: 2026-06-04T07:21:41
 | Workflow Scoping Review | 250-500 | local | automation-scoping-review.html |
 | RAG Pilot Readiness Review | 750-1500 | local | rag-pilot-readiness-review.html |
 | AI Code Review Scorecard Pass | 500-1500 | local | ai-code-review-scorecard-pass.html |
+| Agency Partner Review | 250-750 | local | agency-partner-review.html |
 | Redacted async review brief | 0 | local | async-review-brief.html |
 | AI Automation ROI Kit | 49 | buy.stripe.com | fulfillment local only: ai_automation_roi_kit.zip |
 | RAG Pilot Evaluation Kit | 79 | buy.stripe.com | fulfillment local only: rag_eval_kit.zip |
