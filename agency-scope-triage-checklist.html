@@ -1,0 +1,168 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scopegrade - AI Agency Scope Triage Checklist</title>
+  <meta name="description" content="A practical async checklist for AI automation, RAG and agent agencies deciding whether a client scope is ready to quote or should be narrowed first.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"AI agency scope triage checklist","author":{"@type":"Organization","name":"Scopegrade","url":"https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/"},"description":"A practical async checklist for AI automation, RAG and agent agencies deciding whether a client scope is ready to quote or should be narrowed first."}</script>
+  <style>
+    :root {
+      --ink: #16202a;
+      --muted: #5e6975;
+      --line: #d9dee5;
+      --surface: #f6f7f9;
+      --panel: #ffffff;
+      --green: #1f7a48;
+      --blue: #1c5d99;
+      --teal: #26706c;
+      --amber: #8a6400;
+      --red: #9d2f2f;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Segoe UI, Roboto, Arial, sans-serif; color: var(--ink); background: var(--surface); line-height: 1.45; }
+    header, footer { background: var(--panel); border-bottom: 1px solid var(--line); }
+    footer { border-top: 1px solid var(--line); border-bottom: 0; color: var(--muted); padding: 18px 0 28px; font-size: 14px; }
+    .wrap { width: min(1040px, calc(100% - 28px)); margin: 0 auto; }
+    .hero { padding: 42px 0 28px; }
+    .eyebrow { margin: 0 0 8px; color: var(--teal); font-weight: 700; font-size: 14px; }
+    h1 { margin: 0; font-size: 38px; max-width: 880px; letter-spacing: 0; }
+    .hero p, .card p { color: var(--muted); max-width: 820px; font-size: 17px; }
+    main { padding: 22px 0 42px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .two { grid-template-columns: 1.05fr 0.95fr; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; margin-bottom: 14px; }
+    h2 { margin: 0 0 8px; font-size: 21px; letter-spacing: 0; }
+    h3 { margin: 14px 0 6px; font-size: 17px; letter-spacing: 0; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    .score { display: inline-block; border-radius: 6px; border: 1px solid var(--line); padding: 4px 8px; font-weight: 700; }
+    .go { color: var(--green); }
+    .narrow { color: var(--amber); }
+    .stop { color: var(--red); }
+    .button-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    .button { display: inline-block; border: 1px solid var(--blue); background: var(--blue); color: #fff; border-radius: 6px; padding: 10px 12px; text-decoration: none; font-weight: 650; text-align: center; }
+    .button:hover { background: #174d80; }
+    .secondary { background: #fff; color: var(--blue); }
+    .secondary:hover { background: #eef6ff; }
+    .note { border-left: 4px solid var(--amber); color: #4d3a05; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 9px 8px; text-align: left; vertical-align: top; }
+    th { font-size: 13px; color: var(--muted); background: #f8fafc; }
+    @media (max-width: 860px) {
+      .grid, .two { grid-template-columns: 1fr; }
+      h1 { font-size: 30px; }
+      .hero { padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">Scopegrade agency checklist</p>
+      <h1>A scope is not ready to quote until these six checks survive.</h1>
+      <p>Use this async triage pass before promising an automation, RAG or agent build. It is designed for agencies that want fewer vague milestones, fewer eval surprises and less rework after kickoff.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="card note">
+      <h2>Fast rule</h2>
+      <p>If any item lands in red, quote a review or discovery slice first. If two or more land in amber, narrow the first milestone before building. If everything is green, the scope may be ready for implementation pricing.</p>
+    </article>
+
+    <div class="grid">
+      <article class="card">
+        <h2>1. Outcome clarity</h2>
+        <ul>
+          <li><span class="score go">Green</span> One measurable workflow outcome is named.</li>
+          <li><span class="score narrow">Amber</span> The client lists tools but not the decision to improve.</li>
+          <li><span class="score stop">Red</span> The request is only "add AI" or "build an agent".</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>2. Data boundary</h2>
+        <ul>
+          <li><span class="score go">Green</span> Allowed sources and excluded data are explicit.</li>
+          <li><span class="score narrow">Amber</span> Sources exist but ownership/access is unclear.</li>
+          <li><span class="score stop">Red</span> Production secrets or regulated data are required for scoping.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>3. Human approval</h2>
+        <ul>
+          <li><span class="score go">Green</span> A staff approval point is built into the first milestone.</li>
+          <li><span class="score narrow">Amber</span> Staff can review outputs, but not before user-visible actions.</li>
+          <li><span class="score stop">Red</span> The first milestone changes accounts, refunds or sends advice automatically.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h2>4. Evidence quality</h2>
+        <ul>
+          <li><span class="score go">Green</span> There are recent examples, edge cases and source docs.</li>
+          <li><span class="score narrow">Amber</span> Docs exist but duplicates or stale procedures are visible.</li>
+          <li><span class="score stop">Red</span> The agent must infer policy from memory or chat history only.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>5. Evaluation path</h2>
+        <ul>
+          <li><span class="score go">Green</span> Success can be checked with a small labeled set.</li>
+          <li><span class="score narrow">Amber</span> Success is subjective but reviewers are available.</li>
+          <li><span class="score stop">Red</span> No one can say what a correct output looks like.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>6. Rollback plan</h2>
+        <ul>
+          <li><span class="score go">Green</span> The workflow can fail closed and route to a human.</li>
+          <li><span class="score narrow">Amber</span> Manual fallback exists but is not documented.</li>
+          <li><span class="score stop">Red</span> A bad output can create irreversible customer or financial impact.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="grid two">
+      <article class="card">
+        <h2>Quote the first milestone like this</h2>
+        <table>
+          <thead><tr><th>If the score is</th><th>Sell this first</th><th>Do not sell yet</th></tr></thead>
+          <tbody>
+            <tr><td>Mostly green</td><td>Implementation slice with acceptance tests.</td><td>Open-ended transformation roadmap.</td></tr>
+            <tr><td>Mixed amber</td><td>Scopegrade-style review, evidence map and first milestone plan.</td><td>Full build with fixed timeline.</td></tr>
+            <tr><td>Any red</td><td>Risk review, redacted brief and data-boundary clarification.</td><td>Autonomous customer-facing agent.</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="card">
+        <h2>Useful brief fields</h2>
+        <ul>
+          <li>Current workflow and tools.</li>
+          <li>What decision or handoff should improve.</li>
+          <li>Sources the system may use.</li>
+          <li>Actions that must stay human-approved.</li>
+          <li>Examples of correct and incorrect outcomes.</li>
+        </ul>
+      </article>
+    </div>
+
+    <article class="card">
+      <h2>Need a second pass?</h2>
+      <p>Send a redacted brief and buy the smallest review that matches the risk: workflow scope, RAG readiness or code scorecard. The output is written, async and designed to help an agency decide whether to quote, narrow or defer.</p>
+      <div class="button-row">
+        <a class="button" href="agency-partner-review.html">View agency review</a>
+        <a class="button secondary" href="sample-deliverable.html">View sample output</a>
+        <a class="button secondary" href="async-review-brief.html">Copy redacted brief</a>
+        <a class="button secondary" href="./">Back to storefront</a>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">Scopegrade - async-first template products. Support: mindtrovert.labs@gmail.com</div>
+  </footer>
+</body>
+</html>
