@@ -1,6 +1,6 @@
 ﻿# Scopegrade storefront build report
 
-Generated: 2026-06-03T22:41:24
+Generated: 2026-06-03T23:22:08
 
 - Source: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront
 - Output: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
@@ -12,6 +12,7 @@ Generated: 2026-06-03T22:41:24
 | Product | Price | Link host | File |
 | --- | ---: | --- | --- |
 | Free preview | 0 | local | scopegrade_free_preview.zip, preview.html |
+| Automation ROI calculator | 0 | local | roi-calculator.html |
 | AI Automation ROI Kit | 49 | buy.stripe.com | ai_automation_roi_kit.zip |
 | RAG Pilot Evaluation Kit | 79 | buy.stripe.com | rag_eval_kit.zip |
 | AI Code Review Pack | 79 | buy.stripe.com | ai_code_review_pack.zip |
