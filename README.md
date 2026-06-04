@@ -1,44 +1,41 @@
 ﻿# Scopegrade Storefront
 
-Static GitHub Pages package for Scopegrade.
+Scopegrade is an async-first toolkit for scoping AI automation, RAG pilots and AI-generated code risk before teams spend engineering time.
 
-## Publish source
+Live site:
 
-Recommended GitHub Pages setting:
+https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
 
-- Source: deploy from a branch.
-- Branch: main.
-- Folder: / root.
+## Start here
 
-GitHub's current docs say GitHub Pages can publish when changes are pushed to a specific branch or via GitHub Actions:
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- Buyer path: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/start-here.html
+- ROI calculator: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/roi-calculator.html
+- Free preview: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/preview.html
+- Redacted async review brief: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/async-review-brief.html
 
-## Before publishing
-
-1. Confirm launch_config.json uses real support email and Stripe Payment Links.
-2. Run:
-
-`powershell
-powershell -ExecutionPolicy Bypass -File .\build_scopegrade_storefront.ps1
-powershell -ExecutionPolicy Bypass -File .\prepare_github_pages_package.ps1
-powershell -ExecutionPolicy Bypass -File .\verify_github_pages_package.ps1
-`
-
-3. User approves final publication.
-
-## Included
+## Public pages
 
 - index.html: storefront.
 - start-here.html: buyer path for calculator, kits and async reviews.
 - preview.html: free preview.
-- oi-calculator.html: public automation ROI calculator.
-- utomation-scoping-review.html: async automation scoping review offer.
-- ag-pilot-readiness-review.html: async RAG readiness review offer.
-- i-code-review-scorecard-pass.html: async AI code review scorecard offer.
-- sync-review-brief.html: redacted brief template for async reviews.
+- roi-calculator.html: public automation ROI calculator.
+- automation-scoping-review.html: async automation scoping review offer.
+- rag-pilot-readiness-review.html: async RAG readiness review offer.
+- ai-code-review-scorecard-pass.html: async AI code review scorecard offer.
+- async-review-brief.html: redacted brief template for async reviews.
 - scopegrade_free_preview.zip: free preview ZIP.
-- obots.txt, sitemap.xml, 404.html, .nojekyll.
+- robots.txt, sitemap.xml, 404.html, .nojekyll.
 
-Paid ZIPs are not included in the public GitHub Pages package. Fulfill paid products through Stripe delivery, support email, or another private delivery path after checkout.
+## Paid files
 
-No personal LinkedIn, CV, fake testimonials, fake clients, fake team or guaranteed outcomes.
+Paid ZIPs are not included in this public GitHub Pages package. Fulfill paid products through Stripe delivery, support email, or another private delivery path after checkout.
+
+## Boundaries
+
+- No personal LinkedIn, CV, fake testimonials, fake clients or fake team.
+- No guaranteed revenue, savings, model accuracy, security outcome or compliance result.
+- No public paid ZIP downloads.
+
+## Support
+
+Support: mindtrovert.labs@gmail.com
