@@ -32,5 +32,37 @@
                                                   "ai_code_review_pack.zip"
                                               ]
                                 }
+                 },
+    "services":  {
+                     "workflow_scoping_review_single":  {
+                                                            "name":  "Workflow Scoping Review - Single Workflow",
+                                                            "price_usd":  250,
+                                                            "stripe_payment_link":  ""
+                                                        },
+                     "workflow_scoping_review_expanded":  {
+                                                              "name":  "Workflow Scoping Review - Expanded",
+                                                              "price_usd":  500,
+                                                              "stripe_payment_link":  ""
+                                                          },
+                     "rag_pilot_readiness_review_single":  {
+                                                               "name":  "RAG Pilot Readiness Review - One Area",
+                                                               "price_usd":  750,
+                                                               "stripe_payment_link":  ""
+                                                           },
+                     "rag_pilot_readiness_review_expanded":  {
+                                                                 "name":  "RAG Pilot Readiness Review - Expanded",
+                                                                 "price_usd":  1500,
+                                                                 "stripe_payment_link":  ""
+                                                             },
+                     "ai_code_review_scorecard_single":  {
+                                                             "name":  "AI Code Review Scorecard Pass - Module",
+                                                             "price_usd":  500,
+                                                             "stripe_payment_link":  ""
+                                                         },
+                     "ai_code_review_scorecard_expanded":  {
+                                                               "name":  "AI Code Review Scorecard Pass - Expanded",
+                                                               "price_usd":  1500,
+                                                               "stripe_payment_link":  ""
+                                                           }
                  }
 }
