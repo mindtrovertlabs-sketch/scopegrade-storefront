@@ -1,0 +1,31 @@
+﻿{
+  "brand_name": "Scopegrade",
+  "support_email": "[support email]",
+  "products": {
+    "ai_automation_roi_kit": {
+      "price_usd": 49,
+      "stripe_payment_link": "[PASTE_STRIPE_PAYMENT_LINK]",
+      "file": "ai_automation_roi_kit.zip"
+    },
+    "rag_eval_kit": {
+      "price_usd": 79,
+      "stripe_payment_link": "[PASTE_STRIPE_PAYMENT_LINK]",
+      "file": "rag_eval_kit.zip"
+    },
+    "ai_code_review_pack": {
+      "price_usd": 79,
+      "stripe_payment_link": "[PASTE_STRIPE_PAYMENT_LINK]",
+      "file": "ai_code_review_pack.zip"
+    },
+    "bundle": {
+      "price_usd": 149,
+      "stripe_payment_link": "[PASTE_STRIPE_PAYMENT_LINK]",
+      "files": [
+        "ai_automation_roi_kit.zip",
+        "rag_eval_kit.zip",
+        "ai_code_review_pack.zip"
+      ]
+    }
+  }
+}
+
