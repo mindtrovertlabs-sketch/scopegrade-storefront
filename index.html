@@ -1,0 +1,229 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scopegrade - AI Workflow Kits</title>
+  <style>
+    :root {
+      --ink: #16202a;
+      --muted: #5e6975;
+      --line: #d9dee5;
+      --surface: #f6f7f9;
+      --panel: #ffffff;
+      --green: #1f7a48;
+      --blue: #1c5d99;
+      --teal: #26706c;
+      --amber: #8a6400;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--surface);
+      line-height: 1.45;
+    }
+    header, footer {
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      border-bottom: 0;
+      color: var(--muted);
+      padding: 18px 0 28px;
+      font-size: 14px;
+    }
+    .wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 42px 0 28px;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--teal);
+      font-weight: 700;
+      font-size: 14px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      max-width: 820px;
+      letter-spacing: 0;
+    }
+    .hero p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      max-width: 760px;
+      font-size: 17px;
+    }
+    main { padding: 22px 0 42px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+    }
+    .bundle {
+      margin-top: 14px;
+      min-height: 0;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 21px;
+      letter-spacing: 0;
+    }
+    .price {
+      color: var(--green);
+      font-size: 24px;
+      font-weight: 700;
+      margin: 4px 0 10px;
+    }
+    ul {
+      margin: 8px 0 18px;
+      padding-left: 20px;
+    }
+    li { margin: 6px 0; }
+    .button {
+      display: inline-block;
+      margin-top: auto;
+      border: 1px solid var(--blue);
+      background: var(--blue);
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-weight: 650;
+      text-align: center;
+    }
+    .button:hover { background: #174d80; }
+    .secondary {
+      background: #fff;
+      color: var(--blue);
+    }
+    .secondary:hover { background: #eef6ff; }
+    .note {
+      margin-top: 18px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--teal);
+      border-radius: 8px;
+      padding: 14px;
+      color: #244b48;
+    }
+    .terms {
+      border-left-color: var(--amber);
+      color: #4d3a05;
+    }
+    .preview {
+      margin-bottom: 14px;
+      min-height: 0;
+      border-left: 4px solid var(--teal);
+    }
+    .button-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 30px; }
+      .hero { padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="eyebrow">Scopegrade toolkit store</p>
+      <h1>Practical AI workflow kits for teams that need scoped, testable systems.</h1>
+      <p>Templates, calculators and checklists for AI automation, RAG pilot evaluation and AI code review. Built for async use, without calls or custom consulting required.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="card preview">
+      <h2>Free preview</h2>
+      <p>Try the core structure before buying: an automation pre-build filter, mini ROI worksheet, RAG source-readiness sample and AI code review merge-risk sample.</p>
+      <div class="button-row">
+        <a class="button secondary" href="preview.html">View preview</a>
+        <a class="button secondary" href="scopegrade_free_preview.zip">Download preview ZIP</a>
+      </div>
+    </article>
+
+    <div class="grid">
+      <article class="card">
+        <h2>AI Automation ROI Kit</h2>
+        <div class="price">$49</div>
+        <p>Estimate whether an automation sprint is worth funding before building workflows.</p>
+        <ul>
+          <li>ROI calculator</li>
+          <li>Automation sprint SOW</li>
+          <li>Discovery questions</li>
+          <li>Milestone clauses</li>
+          <li>Lead qualification checklist</li>
+        </ul>
+        <a class="button" href="https://buy.stripe.com/14AfZj40Y95LdNgeBRaEE00">Buy AI Automation ROI Kit</a>
+      </article>
+
+      <article class="card">
+        <h2>RAG Pilot Evaluation Kit</h2>
+        <div class="price">$79</div>
+        <p>Evaluate whether an internal AI copilot is grounded, source-aware and safe enough for limited testing.</p>
+        <ul>
+          <li>RAG readiness checklist</li>
+          <li>Question bank template</li>
+          <li>Source readiness checklist</li>
+          <li>Risk/refusal checklist</li>
+          <li>Sample evaluation report</li>
+        </ul>
+        <a class="button" href="https://buy.stripe.com/cNi9AV2WU81H4cGctJaEE01">Buy RAG Pilot Evaluation Kit</a>
+      </article>
+
+      <article class="card">
+        <h2>AI Code Review Pack</h2>
+        <div class="price">$79</div>
+        <p>Review AI-generated code with a repeatable scorecard, rubric and merge-readiness process.</p>
+        <ul>
+          <li>Code review scorecard</li>
+          <li>Review rubric</li>
+          <li>Security risk checklist</li>
+          <li>Test planning checklist</li>
+          <li>Sample review report</li>
+        </ul>
+        <a class="button" href="https://buy.stripe.com/dRm5kFgNK95LcJc1P5aEE02">Buy AI Code Review Pack</a>
+      </article>
+    </div>
+
+    <article class="card bundle">
+      <h2>Scopegrade Complete Bundle</h2>
+      <div class="price">$149</div>
+      <p>All three kits in one purchase: automation ROI, RAG pilot evaluation and AI code review.</p>
+      <a class="button" href="https://buy.stripe.com/dRm7sNdBychX4cGbpFaEE03">Buy complete bundle</a>
+    </article>
+
+    <div class="note">
+      Delivery: after checkout, use the download/delivery instructions configured in Stripe. For access help, contact mindtrovert.labs@gmail.com.
+    </div>
+    <div class="note terms">
+      Templates only. No guaranteed revenue, savings, model accuracy, security outcome or compliance result. Digital product refunds are handled according to the published refund policy and payment platform rules.
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Scopegrade - async-first template products. Support: mindtrovert.labs@gmail.com</div>
+  </footer>
+</body>
+</html>
