@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/sitemap.xml
