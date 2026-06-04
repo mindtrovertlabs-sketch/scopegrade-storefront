@@ -1,0 +1,29 @@
+﻿# Scopegrade
+
+Scopegrade is an async-first toolkit for scoping AI automation, RAG pilots and AI-generated code risk before teams spend engineering time.
+
+## Useful URLs
+
+- Start here: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/start-here.html
+- Automation ROI calculator: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/roi-calculator.html
+- Free preview: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/preview.html
+- Storefront: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
+- Redacted async review brief: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/async-review-brief.html
+- Workflow Scoping Review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
+- RAG Pilot Readiness Review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
+- AI Code Review Scorecard Pass: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
+
+## Products
+
+- AI Automation ROI Kit: templates for deciding whether an automation sprint is worth funding.
+- RAG Pilot Evaluation Kit: source readiness, evaluation and risk templates for internal copilots.
+- AI Code Review Pack: scorecards and checklists for AI-generated code risk.
+- Scopegrade Complete Bundle: all three kits.
+
+## Safety and scope
+
+Scopegrade is templates and fixed-scope written review support. It does not guarantee revenue, savings, model accuracy, security outcomes, compliance results or defect coverage. Users should not send credentials, production access, private customer data or regulated data through public channels.
+
+## Paid files
+
+Paid ZIPs are intentionally not public. The public site includes only the free preview ZIP and public HTML pages.
