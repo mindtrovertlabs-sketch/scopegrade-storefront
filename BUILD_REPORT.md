@@ -1,6 +1,6 @@
 ﻿# Scopegrade storefront build report
 
-Generated: 2026-06-03T23:47:32
+Generated: 2026-06-03T23:51:46
 
 - Source: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront
 - Output: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
@@ -17,9 +17,9 @@ Generated: 2026-06-03T23:47:32
 | RAG Pilot Readiness Review | 750-1500 | local | rag-pilot-readiness-review.html |
 | AI Code Review Scorecard Pass | 500-1500 | local | ai-code-review-scorecard-pass.html |
 | Redacted async review brief | 0 | local | async-review-brief.html |
-| AI Automation ROI Kit | 49 | buy.stripe.com | ai_automation_roi_kit.zip |
-| RAG Pilot Evaluation Kit | 79 | buy.stripe.com | rag_eval_kit.zip |
-| AI Code Review Pack | 79 | buy.stripe.com | ai_code_review_pack.zip |
-| Scopegrade Complete Bundle | 149 | buy.stripe.com | ai_automation_roi_kit.zip, rag_eval_kit.zip, ai_code_review_pack.zip |
+| AI Automation ROI Kit | 49 | buy.stripe.com | fulfillment local only: ai_automation_roi_kit.zip |
+| RAG Pilot Evaluation Kit | 79 | buy.stripe.com | fulfillment local only: rag_eval_kit.zip |
+| AI Code Review Pack | 79 | buy.stripe.com | fulfillment local only: ai_code_review_pack.zip |
+| Scopegrade Complete Bundle | 149 | buy.stripe.com | fulfillment local only: ai_automation_roi_kit.zip, rag_eval_kit.zip, ai_code_review_pack.zip |
 
-Do not publish until the user approves the final page and confirms Stripe links are live.
+Paid ZIPs are intentionally not copied to the public GitHub Pages package. Fulfill paid downloads through Stripe delivery, email, or another private delivery path after checkout.
