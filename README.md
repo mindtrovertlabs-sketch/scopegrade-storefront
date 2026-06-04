@@ -36,9 +36,8 @@ powershell -ExecutionPolicy Bypass -File .\verify_github_pages_package.ps1
 - i-code-review-scorecard-pass.html: async AI code review scorecard offer.
 - sync-review-brief.html: redacted brief template for async reviews.
 - scopegrade_free_preview.zip: free preview ZIP.
-- i_automation_roi_kit.zip: paid product file.
-- ag_eval_kit.zip: paid product file.
-- i_code_review_pack.zip: paid product file.
 - obots.txt, sitemap.xml, 404.html, .nojekyll.
+
+Paid ZIPs are not included in the public GitHub Pages package. Fulfill paid products through Stripe delivery, support email, or another private delivery path after checkout.
 
 No personal LinkedIn, CV, fake testimonials, fake clients, fake team or guaranteed outcomes.
