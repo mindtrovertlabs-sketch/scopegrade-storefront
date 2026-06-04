@@ -13,6 +13,14 @@ https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
 - Free preview: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/preview.html
 - Redacted async review brief: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/async-review-brief.html
 
+## Async review services
+
+- Workflow Scoping Review, 250-500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
+- RAG Pilot Readiness Review, 750-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
+- AI Code Review Scorecard Pass, 500-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
+
+These are fixed-scope written reviews. No calls, credentials or production access are required by default.
+
 ## Public pages
 
 - index.html: storefront.
