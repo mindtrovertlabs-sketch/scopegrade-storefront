@@ -1,6 +1,6 @@
 ﻿# Scopegrade storefront build report
 
-Generated: 2026-06-04T11:09:46
+Generated: 2026-06-08T20:35:58
 
 - Source: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront
 - Output: C:\Users\Juanr\Documents\Operacion-20k-USD\publish_ready\scopegrade_storefront_final
@@ -13,10 +13,10 @@ Generated: 2026-06-04T11:09:46
 | --- | ---: | --- | --- |
 | Free preview | 0 | local | scopegrade_free_preview.zip, preview.html |
 | Automation ROI calculator | 0 | local | roi-calculator.html |
-| Workflow Scoping Review | 250-500 | local | automation-scoping-review.html |
-| RAG Pilot Readiness Review | 750-1500 | local | rag-pilot-readiness-review.html |
-| AI Code Review Scorecard Pass | 500-1500 | local | ai-code-review-scorecard-pass.html |
-| Agency Partner Review | 250-750 | local | agency-partner-review.html |
+| Scope Triage | 750 | local | automation-scoping-review.html |
+| Implementation Readiness Review | 1500 | local | rag-pilot-readiness-review.html |
+| Partner Review Sprint | 3000-5000 | local | ai-code-review-scorecard-pass.html |
+| Agency Partner Review | 750-5000 | local | agency-partner-review.html |
 | Agency scope triage checklist | 0 | local | agency-scope-triage-checklist.html |
 | Sample async review output | 0 | local | sample-deliverable.html |
 | Redacted async review brief | 0 | local | async-review-brief.html |
