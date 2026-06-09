@@ -18,10 +18,10 @@ https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/
 
 ## Async review services
 
-- Workflow Scoping Review, 250-500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
-- RAG Pilot Readiness Review, 750-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
-- AI Code Review Scorecard Pass, 500-1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
-- Agency Partner Review, 250-750 USD entry points: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
+- Scope Triage, 750 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
+- Implementation Readiness Review, 1,500 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
+- Partner Review Sprint, 3,000-5,000 USD: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
+- Agency Partner Review, 750-5,000 USD entry points: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
 
 These are fixed-scope written reviews. No calls, credentials or production access are required by default.
 
@@ -31,9 +31,9 @@ These are fixed-scope written reviews. No calls, credentials or production acces
 - start-here.html: buyer path for calculator, kits and async reviews.
 - preview.html: free preview.
 - roi-calculator.html: public automation ROI calculator.
-- automation-scoping-review.html: async automation scoping review offer.
-- rag-pilot-readiness-review.html: async RAG readiness review offer.
-- ai-code-review-scorecard-pass.html: async AI code review scorecard offer.
+- automation-scoping-review.html: Scope Triage offer.
+- rag-pilot-readiness-review.html: Implementation Readiness Review offer.
+- ai-code-review-scorecard-pass.html: Partner Review Sprint offer.
 - async-review-brief.html: redacted brief template for async reviews.
 - agency-partner-review.html: async overflow review offer for AI agencies and studios.
 - agency-scope-triage-checklist.html: public triage checklist for AI agencies deciding whether to quote, narrow or defer a scope.
