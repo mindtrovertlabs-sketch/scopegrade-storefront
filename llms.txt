@@ -1,4 +1,4 @@
-# Scopegrade
+﻿# Scopegrade
 
 Scopegrade is an async-first toolkit for scoping AI automation, RAG pilots and AI-generated code risk before teams spend engineering time.
 
@@ -12,9 +12,9 @@ Scopegrade is an async-first toolkit for scoping AI automation, RAG pilots and A
 - Agency partner review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-partner-review.html
 - Agency scope triage checklist: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/agency-scope-triage-checklist.html
 - Sample async review output: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/sample-deliverable.html
-- Workflow Scoping Review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
-- RAG Pilot Readiness Review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
-- AI Code Review Scorecard Pass: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
+- Scope Triage: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/automation-scoping-review.html
+- Implementation Readiness Review: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/rag-pilot-readiness-review.html
+- Partner Review Sprint: https://mindtrovertlabs-sketch.github.io/scopegrade-storefront/ai-code-review-scorecard-pass.html
 
 ## Products
 
